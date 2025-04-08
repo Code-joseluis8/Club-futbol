@@ -1,6 +1,20 @@
 {
   "name": "club-futbol",
   "version": "0.0.0",
+  "private": true,
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.",
+  "homepage": "https://github.com/Code-joseluis8/Club-futbol#readme",
+  "bugs": {
+    "url": "https://github.com/Code-joseluis8/Club-futbol/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-joseluis8/Club-futbol.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +22,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^18.2.0",
     "@angular/common": "^18.2.0",
@@ -18,12 +31,14 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "fast-uri": "^3.0.6",
+    "install": "^0.13.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^18.2.2",
+    "@angular-devkit/build-angular": "^18.2.17",
     "@angular/cli": "^18.2.2",
     "@angular/compiler-cli": "^18.2.0",
     "@types/jasmine": "~5.1.0",
